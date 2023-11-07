@@ -7,6 +7,8 @@ from engine.model.palindrome import Palindrome
 from engine.model.rorschach import Rorschach
 from engine.model.thovex import Thovex
 
+# On observation, the following unit test isn't exactly 'unit' testing. It's testing the entire Car class, which is not the goal.
+# breaking the test into smaller tests by dividing the car further into its components, engine and battery, would be more appropriate.
 
 class TestCalliope(unittest.TestCase):
     def test_battery_should_be_serviced(self):
