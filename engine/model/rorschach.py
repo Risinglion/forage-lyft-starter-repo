@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from engine.willoughby_engine import WilloughbyEngine
+from engine.engines.willoughby_engine import WilloughbyEngine
 
 
 class Rorschach(WilloughbyEngine):
